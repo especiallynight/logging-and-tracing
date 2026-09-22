@@ -13,5 +13,12 @@
 
 
 Проверка обновления задачи с указанием пользователя и проекта
+
+
 <img width="1067" height="773" alt="image-22-09-26-19-55" src="https://github.com/user-attachments/assets/e6df8f16-e050-49d3-9fdc-8f157b8d4e8c" />
+
+
+Создание задачи с несуществующим пользователем
+
+
 <img width="983" height="779" alt="image-22-09-26-19-55-1" src="https://github.com/user-attachments/assets/7a5956d9-4f63-42a3-93a7-58d57a4244ee" />
