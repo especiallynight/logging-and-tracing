@@ -1,0 +1,445 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Study\\LoggingAndTracing\\Task Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41E05786-B24C-4B87-8D03-0C72D817AA30}|ProjectService\\ProjectService.csproj|e:\\study\\loggingandtracing\\task management\\projectservice\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E05786-B24C-4B87-8D03-0C72D817AA30}|ProjectService\\ProjectService.csproj|solutionrelative:projectservice\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|e:\\study\\loggingandtracing\\task management\\task management\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|e:\\study\\loggingandtracing\\task management\\task management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|e:\\study\\loggingandtracing\\task management\\task management\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E05786-B24C-4B87-8D03-0C72D817AA30}|ProjectService\\ProjectService.csproj|e:\\study\\loggingandtracing\\task management\\projectservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E05786-B24C-4B87-8D03-0C72D817AA30}|ProjectService\\ProjectService.csproj|solutionrelative:projectservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|e:\\study\\loggingandtracing\\task management\\task management\\clients\\projectclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\clients\\projectclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|e:\\study\\loggingandtracing\\task management\\task management\\clients\\userclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\clients\\userclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|e:\\study\\loggingandtracing\\task management\\task management\\models\\currenttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\models\\currenttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|e:\\study\\loggingandtracing\\task management\\task management\\models\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\models\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|e:\\study\\loggingandtracing\\task management\\task management\\models\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\models\\taskpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|e:\\study\\loggingandtracing\\task management\\task management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E62C174-663B-4873-B879-1AA5FFFE9DCB}|UserService\\UserService.csproj|e:\\study\\loggingandtracing\\task management\\userservice\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E62C174-663B-4873-B879-1AA5FFFE9DCB}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|e:\\study\\loggingandtracing\\task management\\task management\\models\\archivedtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\models\\archivedtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|e:\\study\\loggingandtracing\\task management\\task management\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|e:\\study\\loggingandtracing\\task management\\task management\\task management.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4AF73B70-109E-9C7A-BBC5-081042BA7986}|Task Management\\Task Management.csproj|solutionrelative:task management\\task management.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E05786-B24C-4B87-8D03-0C72D817AA30}|ProjectService\\ProjectService.csproj|e:\\study\\loggingandtracing\\task management\\projectservice\\projectservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{41E05786-B24C-4B87-8D03-0C72D817AA30}|ProjectService\\ProjectService.csproj|solutionrelative:projectservice\\projectservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E05786-B24C-4B87-8D03-0C72D817AA30}|ProjectService\\ProjectService.csproj|e:\\study\\loggingandtracing\\task management\\projectservice\\clients\\userclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E05786-B24C-4B87-8D03-0C72D817AA30}|ProjectService\\ProjectService.csproj|solutionrelative:projectservice\\clients\\userclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E62C174-663B-4873-B879-1AA5FFFE9DCB}|UserService\\UserService.csproj|e:\\study\\loggingandtracing\\task management\\userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2E62C174-663B-4873-B879-1AA5FFFE9DCB}|UserService\\UserService.csproj|solutionrelative:userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E62C174-663B-4873-B879-1AA5FFFE9DCB}|UserService\\UserService.csproj|e:\\study\\loggingandtracing\\task management\\userservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E62C174-663B-4873-B879-1AA5FFFE9DCB}|UserService\\UserService.csproj|solutionrelative:userservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E62C174-663B-4873-B879-1AA5FFFE9DCB}|UserService\\UserService.csproj|e:\\study\\loggingandtracing\\task management\\userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E62C174-663B-4873-B879-1AA5FFFE9DCB}|UserService\\UserService.csproj|solutionrelative:userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E05786-B24C-4B87-8D03-0C72D817AA30}|ProjectService\\ProjectService.csproj|e:\\study\\loggingandtracing\\task management\\projectservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41E05786-B24C-4B87-8D03-0C72D817AA30}|ProjectService\\ProjectService.csproj|solutionrelative:projectservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E62C174-663B-4873-B879-1AA5FFFE9DCB}|UserService\\UserService.csproj|e:\\study\\loggingandtracing\\task management\\userservice\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E62C174-663B-4873-B879-1AA5FFFE9DCB}|UserService\\UserService.csproj|solutionrelative:userservice\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E05786-B24C-4B87-8D03-0C72D817AA30}|ProjectService\\ProjectService.csproj|e:\\study\\loggingandtracing\\task management\\projectservice\\data\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E05786-B24C-4B87-8D03-0C72D817AA30}|ProjectService\\ProjectService.csproj|solutionrelative:projectservice\\data\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E05786-B24C-4B87-8D03-0C72D817AA30}|ProjectService\\ProjectService.csproj|e:\\study\\loggingandtracing\\task management\\projectservice\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E05786-B24C-4B87-8D03-0C72D817AA30}|ProjectService\\ProjectService.csproj|solutionrelative:projectservice\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E62C174-663B-4873-B879-1AA5FFFE9DCB}|UserService\\UserService.csproj|e:\\study\\loggingandtracing\\task management\\userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E62C174-663B-4873-B879-1AA5FFFE9DCB}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaskPriority.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Models\\TaskPriority.cs",
+              "RelativeDocumentMoniker": "Task Management\\Models\\TaskPriority.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Models\\TaskPriority.cs",
+              "RelativeToolTip": "Task Management\\Models\\TaskPriority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T12:27:06.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskStatus.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Models\\TaskStatus.cs",
+              "RelativeDocumentMoniker": "Task Management\\Models\\TaskStatus.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Models\\TaskStatus.cs",
+              "RelativeToolTip": "Task Management\\Models\\TaskStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T12:26:52.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ArchivedTask.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Models\\ArchivedTask.cs",
+              "RelativeDocumentMoniker": "Task Management\\Models\\ArchivedTask.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Models\\ArchivedTask.cs",
+              "RelativeToolTip": "Task Management\\Models\\ArchivedTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T12:24:39.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CurrentTask.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Models\\CurrentTask.cs",
+              "RelativeDocumentMoniker": "Task Management\\Models\\CurrentTask.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Models\\CurrentTask.cs",
+              "RelativeToolTip": "Task Management\\Models\\CurrentTask.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wBkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T12:23:37.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task Management\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task Management\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T12:16:00.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectClient.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Clients\\ProjectClient.cs",
+              "RelativeDocumentMoniker": "Task Management\\Clients\\ProjectClient.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Clients\\ProjectClient.cs",
+              "RelativeToolTip": "Task Management\\Clients\\ProjectClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T12:15:20.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserClient.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Clients\\UserClient.cs",
+              "RelativeDocumentMoniker": "Task Management\\Clients\\UserClient.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Clients\\UserClient.cs",
+              "RelativeToolTip": "Task Management\\Clients\\UserClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T12:15:10.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Task Management",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Task Management.csproj",
+              "RelativeDocumentMoniker": "Task Management\\Task Management.csproj",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Task Management.csproj",
+              "RelativeToolTip": "Task Management\\Task Management.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-22T12:14:45.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserClient.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\ProjectService\\Clients\\UserClient.cs",
+              "RelativeDocumentMoniker": "ProjectService\\Clients\\UserClient.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\ProjectService\\Clients\\UserClient.cs",
+              "RelativeToolTip": "ProjectService\\Clients\\UserClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T11:41:05.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\ProjectService\\appsettings.json",
+              "RelativeDocumentMoniker": "ProjectService\\appsettings.json",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\ProjectService\\appsettings.json",
+              "RelativeToolTip": "ProjectService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-22T10:31:34.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\ProjectService\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectService\\Program.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\ProjectService\\Program.cs",
+              "RelativeToolTip": "ProjectService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T10:30:41.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Project.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\ProjectService\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "ProjectService\\Models\\Project.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\ProjectService\\Models\\Project.cs",
+              "RelativeToolTip": "ProjectService\\Models\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T10:29:24.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProjectService",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\ProjectService\\ProjectService.csproj",
+              "RelativeDocumentMoniker": "ProjectService\\ProjectService.csproj",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\ProjectService\\ProjectService.csproj",
+              "RelativeToolTip": "ProjectService\\ProjectService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-22T10:29:07.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProjectDbContext.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\ProjectService\\Data\\ProjectDbContext.cs",
+              "RelativeDocumentMoniker": "ProjectService\\Data\\ProjectDbContext.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\ProjectService\\Data\\ProjectDbContext.cs",
+              "RelativeToolTip": "ProjectService\\Data\\ProjectDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T10:28:58.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\ProjectService\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "ProjectService\\Controllers\\ProjectsController.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\ProjectService\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "ProjectService\\Controllers\\ProjectsController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA7wDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T10:28:36.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\UserService\\appsettings.json",
+              "RelativeDocumentMoniker": "UserService\\appsettings.json",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\UserService\\appsettings.json",
+              "RelativeToolTip": "UserService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-22T10:21:19.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\UserService\\Program.cs",
+              "RelativeDocumentMoniker": "UserService\\Program.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\UserService\\Program.cs",
+              "RelativeToolTip": "UserService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T10:21:08.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Data\\DBContext.cs",
+              "RelativeDocumentMoniker": "Task Management\\Data\\DBContext.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Data\\DBContext.cs",
+              "RelativeToolTip": "Task Management\\Data\\DBContext.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T10:20:18.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserDbContext.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\UserService\\Data\\UserDbContext.cs",
+              "RelativeDocumentMoniker": "UserService\\Data\\UserDbContext.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\UserService\\Data\\UserDbContext.cs",
+              "RelativeToolTip": "UserService\\Data\\UserDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T10:19:50.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserService",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\UserService\\UserService.csproj",
+              "RelativeDocumentMoniker": "UserService\\UserService.csproj",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\UserService\\UserService.csproj",
+              "RelativeToolTip": "UserService\\UserService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-22T10:19:30.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\UserService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\User.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\UserService\\Models\\User.cs",
+              "RelativeToolTip": "UserService\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T10:17:15.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\UserService\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "UserService\\Controllers\\UsersController.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\UserService\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "UserService\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T10:16:48.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\appsettings.json",
+              "RelativeDocumentMoniker": "Task Management\\appsettings.json",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\appsettings.json",
+              "RelativeToolTip": "Task Management\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-11T14:56:12.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Program.cs",
+              "RelativeDocumentMoniker": "Task Management\\Program.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Program.cs",
+              "RelativeToolTip": "Task Management\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:14:28.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Task Management\\Controllers\\TaskController.cs",
+              "ToolTip": "E:\\Study\\LoggingAndTracing\\Task Management\\Task Management\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Task Management\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAAAM4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T15:49:54.34Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
