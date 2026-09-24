@@ -15,7 +15,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Task_Management.Models.CurrentTask, Task Management, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Task_Management.DTOs.TaskDto, Task Management, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -34,14 +34,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "task",
-        "Type": "Task_Management.Models.CurrentTask",
+        "Name": "dto",
+        "Type": "Task_Management.DTOs.CreateTaskDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Task_Management.Models.CurrentTask",
+        "Type": "Task_Management.DTOs.TaskDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -67,7 +67,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Task_Management.Models.CurrentTask",
+        "Type": "Task_Management.DTOs.TaskDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -91,8 +91,8 @@
         "IsRequired": true
       },
       {
-        "Name": "task",
-        "Type": "Task_Management.Models.CurrentTask",
+        "Name": "dto",
+        "Type": "Task_Management.DTOs.UpdateTaskDto",
         "IsRequired": true
       }
     ],
@@ -134,7 +134,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Task_Management.Models.ArchivedTask, Task Management, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Task_Management.DTOs.ArchivedTaskDto, Task Management, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

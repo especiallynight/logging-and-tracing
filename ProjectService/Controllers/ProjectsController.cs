@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ProjectService.Data;
-using ProjectService.Models;
 using ProjectService.Clients;
+using ProjectService.Data;
+using ProjectService.DTOs;
+using ProjectService.Models;
 
 namespace ProjectService.Controllers;
 
@@ -20,15 +21,14 @@ public class ProjectsController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Project>>> GetProjects()
+    public async Task<ActionResult<IEnumerable<ProjectDto>>> GetProjects()
     {
         var projects = await _context.Projects.ToListAsync();
-
-        return Ok(projects);
+        return Ok(projects.Select(ToDto));
     }
 
     [HttpGet("{id:int}")]
-    public async Task<ActionResult<Project>> GetProject(int id)
+    public async Task<ActionResult<ProjectDto>> GetProject(int id)
     {
         var project = await _context.Projects.FindAsync(id);
 
@@ -37,25 +37,25 @@ public class ProjectsController : ControllerBase
             return NotFound($"Проект с ID {id} не найден.");
         }
 
-        return Ok(project);
+        return Ok(ToDto(project));
     }
 
     [HttpPost]
-    public async Task<ActionResult<Project>> CreateProject(Project project)
+    public async Task<ActionResult<ProjectDto>> CreateProject(CreateProjectDto dto)
     {
-        if (string.IsNullOrWhiteSpace(project.Name))
+        if (string.IsNullOrWhiteSpace(dto.Name))
         {
             return BadRequest("Название проекта обязательно.");
         }
 
         try
         {
-            var userExists = await _userClient.UserExistsAsync(project.OwnerId);
+            var userExists = await _userClient.UserExistsAsync(dto.OwnerId);
 
             if (!userExists)
             {
                 return BadRequest(
-                    $"Пользователь с ID {project.OwnerId} не существует.");
+                    $"Пользователь с ID {dto.OwnerId} не существует.");
             }
         }
         catch (HttpRequestException)
@@ -65,24 +65,25 @@ public class ProjectsController : ControllerBase
                 "UserService недоступен.");
         }
 
-        _context.Projects.Add(project);
+        var project = new Project
+        {
+            Name = dto.Name,
+            Description = dto.Description,
+            OwnerId = dto.OwnerId
+        };
 
+        _context.Projects.Add(project);
         await _context.SaveChangesAsync();
 
         return CreatedAtAction(
             nameof(GetProject),
             new { id = project.Id },
-            project);
+            ToDto(project));
     }
 
     [HttpPut("{id:int}")]
-    public async Task<IActionResult> UpdateProject(int id, Project project)
+    public async Task<IActionResult> UpdateProject(int id, UpdateProjectDto dto)
     {
-        if (id != project.Id)
-        {
-            return BadRequest("ID в URL и ID проекта не совпадают.");
-        }
-
         var existingProject = await _context.Projects.FindAsync(id);
 
         if (existingProject is null)
@@ -90,9 +91,9 @@ public class ProjectsController : ControllerBase
             return NotFound($"Проект с ID {id} не найден.");
         }
 
-        existingProject.Name = project.Name;
-        existingProject.Description = project.Description;
-        existingProject.OwnerId = project.OwnerId;
+        existingProject.Name = dto.Name;
+        existingProject.Description = dto.Description;
+        existingProject.OwnerId = dto.OwnerId;
 
         await _context.SaveChangesAsync();
 
@@ -110,9 +111,11 @@ public class ProjectsController : ControllerBase
         }
 
         _context.Projects.Remove(project);
-
         await _context.SaveChangesAsync();
 
         return NoContent();
     }
+
+    private static ProjectDto ToDto(Project p)
+        => new(p.Id, p.Name, p.Description, p.OwnerId);
 }
