@@ -1,3 +1,9 @@
+Проверка шлюза
+
+
+<img width="1251" height="1040" alt="Снимок экрана 2026-09-24 174235" src="https://github.com/user-attachments/assets/5e4159cb-af6a-4ed1-b2f4-0e00bf96bbcc" />
+
+
 
 
 Проверка наличия проекта у несуществующего пользователя 
