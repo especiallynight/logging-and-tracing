@@ -1,7 +1,8 @@
 Проверка шлюза
 
 
-<img width="1251" height="1040" alt="Снимок экрана 2026-09-24 174235" src="https://github.com/user-attachments/assets/5e4159cb-af6a-4ed1-b2f4-0e00bf96bbcc" />
+<img width="1032" height="992" alt="Снимок экрана 2026-09-24 182130" src="https://github.com/user-attachments/assets/7e7877c3-9ebb-4c8a-8b79-7d7cd252e354" />
+
 
 
 
