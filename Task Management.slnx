@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="ApiGateway/ApiGateway.csproj" Id="2e95578d-aba1-41b3-83bd-500daf0a6b0e" />
+  <Project Path="ApiGateway/ApiGateway.csproj" Id="581eb1e8-d98f-4f83-93fd-b09aafd1b734" />
   <Project Path="ProjectService/ProjectService.csproj" Id="41e05786-b24c-4b87-8d03-0c72d817aa30" />
   <Project Path="Task Management/Task Management.csproj" />
   <Project Path="UserService/UserService.csproj" Id="2e62c174-663b-4873-b879-1aa5fffe9dcb" />

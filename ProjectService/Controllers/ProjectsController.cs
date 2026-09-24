@@ -48,11 +48,21 @@ public class ProjectsController : ControllerBase
             return BadRequest("Название проекта обязательно.");
         }
 
-        var userExists = await _userClient.UserExistsAsync(project.OwnerId);
-
-        if (!userExists)
+        try
         {
-            return BadRequest($"Пользователь с ID {project.OwnerId} не существует.");
+            var userExists = await _userClient.UserExistsAsync(project.OwnerId);
+
+            if (!userExists)
+            {
+                return BadRequest(
+                    $"Пользователь с ID {project.OwnerId} не существует.");
+            }
+        }
+        catch (HttpRequestException)
+        {
+            return StatusCode(
+                StatusCodes.Status503ServiceUnavailable,
+                "UserService недоступен.");
         }
 
         _context.Projects.Add(project);
