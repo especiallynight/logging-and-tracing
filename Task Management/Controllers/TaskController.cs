@@ -95,25 +95,43 @@ public class TasksController : ControllerBase
 
         if (task.assigned_user_id.HasValue)
         {
-            var userExists = await _userClient.UserExistsAsync(
-                task.assigned_user_id.Value);
-
-            if (!userExists)
+            try
             {
-                return BadRequest(
-                    $"Пользователь с ID {task.assigned_user_id} не существует.");
+                var userExists = await _userClient.UserExistsAsync(
+                    task.assigned_user_id.Value);
+
+                if (!userExists)
+                {
+                    return BadRequest(
+                        $"Пользователь с ID {task.assigned_user_id} не существует.");
+                }
+            }
+            catch (HttpRequestException)
+            {
+                return StatusCode(
+                    StatusCodes.Status503ServiceUnavailable,
+                    "UserService недоступен.");
             }
         }
 
         if (task.project_id.HasValue)
         {
-            var projectExists = await _projectClient.ProjectExistsAsync(
-                task.project_id.Value);
-
-            if (!projectExists)
+            try
             {
-                return BadRequest(
-                    $"Проект с ID {task.project_id} не существует.");
+                var projectExists = await _projectClient.ProjectExistsAsync(
+                    task.project_id.Value);
+
+                if (!projectExists)
+                {
+                    return BadRequest(
+                        $"Проект с ID {task.project_id} не существует.");
+                }
+            }
+            catch (HttpRequestException)
+            {
+                return StatusCode(
+                    StatusCodes.Status503ServiceUnavailable,
+                    "ProjectService недоступен.");
             }
         }
 
@@ -174,25 +192,40 @@ public class TasksController : ControllerBase
         }
         if (task.assigned_user_id.HasValue)
         {
-            var userExists = await _userClient.UserExistsAsync(
-                task.assigned_user_id.Value);
-
-            if (!userExists)
+            try
             {
-                return BadRequest(
-                    $"Пользователь с ID {task.assigned_user_id} не существует.");
+                var userExists = await _userClient.UserExistsAsync(task.assigned_user_id.Value);
+
+                if (!userExists)
+                {
+                    return BadRequest(
+                        $"Пользователь с ID {task.assigned_user_id} не существует.");
+                }
+            }
+            catch (HttpRequestException)
+            {
+                return StatusCode(
+                    StatusCodes.Status503ServiceUnavailable,
+                    "UserService недоступен.");
             }
         }
 
         if (task.project_id.HasValue)
         {
-            var projectExists = await _projectClient.ProjectExistsAsync(
-                task.project_id.Value);
-
-            if (!projectExists)
+            try
             {
-                return BadRequest(
-                    $"Проект с ID {task.project_id} не существует.");
+                var projectExists = await _projectClient.ProjectExistsAsync(task.project_id.Value);
+
+                if (!projectExists)
+                {
+                    return BadRequest($"Проект с ID {task.project_id} не существует.");
+                }
+            }
+            catch (HttpRequestException)
+            {
+                return StatusCode(
+                    StatusCodes.Status503ServiceUnavailable,
+                    "ProjectService недоступен.");
             }
         }
 
