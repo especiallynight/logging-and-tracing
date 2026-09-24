@@ -6,6 +6,11 @@
 
 
 
+<img width="1101" height="913" alt="Снимок экрана 2026-09-24 182315" src="https://github.com/user-attachments/assets/207254f0-c18b-48a6-af1b-487bbc9911b1" />
+
+
+
+
 
 Проверка наличия проекта у несуществующего пользователя 
 
